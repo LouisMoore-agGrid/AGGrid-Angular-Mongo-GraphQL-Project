@@ -1,0 +1,15 @@
+<ag-grid-angular
+  style="width: 500px; height: 500px"
+  class="ag-theme-alpine"
+  [rowData]="rowData"
+  [autoGroupColumnDef]="autoGroupColumnDef"
+  [columnDefs]="columnDefs"
+  [gridOptions]="gridOptions"
+  (gridReady)="onGridReady($event)"
+  [serverSideStoreType]="serverSideStoreType"
+  [rowModelType]="rowModelType"
+  [pagination]="true"
+  [defaultColDef]="defaultColDef"
+  [getServerSideStoreParams] = "getServerSideStoreParams"
+>
+</ag-grid-angular>
