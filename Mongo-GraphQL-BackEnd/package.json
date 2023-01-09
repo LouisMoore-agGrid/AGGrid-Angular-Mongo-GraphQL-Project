@@ -19,7 +19,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "initDB": "node dbBundle",
-    "server": "nodemon appBundle",
+    "server": "nodemon serverBundle",
     "rollApp": "tsc && rollup dist/out-tsc/src/app.js --file serverBundle.js --format cjs -c rollup.config.js",
     "rollDB": "tsc && rollup dist/out-tsc/src/dbInitialiser.js --file dbBundle.js --format cjs -c rollup.config.js"
   },
